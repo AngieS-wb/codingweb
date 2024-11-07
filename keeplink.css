@@ -1,0 +1,146 @@
+@charset "UTF-8";
+body {
+	margin: 0;
+	font-family: "Rubik", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: 200;
+  	font-style: normal;
+    background-color: #F7E0E0
+}
+article { 
+	margin:50px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #E0B1B4;
+	position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+ul.topnav li 
+{
+	float: left;
+	width: 25%;
+}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+ul.topnav li a:hover:not(.active) {
+  background-color: #330002;
+}
+
+ul.topnav li a.active {
+	background-color: #330002;
+}
+
+ul.topnav li.right {float: right;}
+.topnav li a {
+}
+.topnav li a {
+}
+.topnav li a {
+}
+}
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+#typographyheader
+{
+	padding: 50px;
+	padding-bottom: 20px;
+	background-color: #EFCFD0;
+}
+
+img  {
+	display: block;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-top:px;
+	padding-bottom: 25px;
+	float:right;
+		
+}
+
+
+h2, h3, h4, h5 {
+	margin:.5%;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: 500;
+	font-style: normal;
+	
+}
+
+
+h1{
+	margin:.5%;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: 800;
+	font-style: normal;
+	
+}
+
+
+
+a {
+	color: #2E0304;
+	text-decoration: none;
+    font-weight: bold;
+    background-color: #D9B3B4;
+}
+
+
+
+footer { 
+	padding-left :13%;
+	padding-right: 10%;
+	padding-bottom: 3%;
+	padding-top: 3%;
+	margin-left: none;
+	margin-right: none;
+	background-color: #EFCFD0;
+
+}
+	header {
+		background-color: #F56D6F; 
+		padding-top: 10px;
+		
+		
+		
+
+
+}
+.button a {
+		background-color: #F96C6E;
+		color:#000000
+			
+}
+.button a:hover {
+	background-color: #FFFFFF;
+	color:#F77577;
+}
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.twocolumn {
+	column-count: 2;
+	column-count: 40px;
+}
+  
